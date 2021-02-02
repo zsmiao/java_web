@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="day01_jdbc" />
+        <module name="day02_jdbc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="day01_jdbc" target="8" />
+      <module name="day02_jdbc" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
